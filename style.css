@@ -62,8 +62,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -95,6 +94,11 @@ label[for="new-task"] {
 }
 input#new-task {
   width: 318px;
+}
+
+.task-row-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Task list */
